@@ -4,10 +4,6 @@
   src: url(../fonts/Nexa-Regular.otf);
 }
 @font-face {
-  font-family: "MYRIADPRO LIGHT";
-  src: url(../fonts/MyriadPro-Light.otf);
-}
-@font-face {
   font-family: "MYRIADPRO BOLD";
   src: url(../fonts/MYRIADPRO-BOLD.OTF);
 }
@@ -35,7 +31,6 @@
   --text-body: #6d6e6f;
   --bg-gradient-sky: linear-gradient(to bottom, #38b4fe, #5ec2fe, #7ecffe, #9cdcfe, #b9e9ff);
   --transition-3: 0.3s ease-in-out;
-  --font-family-MYRIADPRO-l:  "MYRIADPRO LIGHT";
   --font-family-nexa-r:   "Nexa-Regular";
   --font-family-MYRIADPROBold:  "MYRIADPRO BOLD" ;
   --font-family-poppions: 'Poppins';
@@ -726,7 +721,7 @@ footer a:hover :is(span,svg){
 
 
 footer h2 {
-  font-family:var(--font-family-MYRIADPRO-l) ;
+  font-family:var(--font-family-MYRIADPROBold) ;
 }
 
 footer .copyrights {
